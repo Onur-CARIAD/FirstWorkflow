@@ -35,7 +35,7 @@ jobs:
   
       - uses: dreamcodez/dead-simple-nodejs@1
         with:
-          NODE_VERSION: 18.*
+          NODE_VERSION: 18.1.0
           NODE_DISTRO: linux-x64 # optional
   
       - name: Run from node
